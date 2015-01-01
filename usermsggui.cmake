@@ -18,9 +18,14 @@ macro    (usermsgguiInit
 
     # compose the list of headers and sources
     set(USERMSGGUI_HEADERS
+        "usermsglogw.h"
         "usermsggui.h")
     set(USERMSGGUI_SOURCES
+        "usermsglogw.cc"
         "usermsggui.cc")
+    set(USERMSGGUI_QT_MODS
+        "Core"
+        "Widgets")
 
     pileSetSources(
         "${USER_MSG_GUI_INIT_NAME}"
@@ -32,7 +37,7 @@ macro    (usermsgguiInit
         "0;0;1;d"
         "ON"
         "${ref_cnt_use_mode}"
-        ""
+        "usermsg"
         "category1"
         "tag1;tag2")
 
