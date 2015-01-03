@@ -10,7 +10,7 @@
 #ifndef GUARD_USERMSGGUI_PRIVATE_H_INCLUDE
 #define GUARD_USERMSGGUI_PRIVATE_H_INCLUDE
 
-#include <usermsggui/usermsggui-config.h>
+#include <usermsg-gui/usermsggui-config.h>
 
 #if 0
 #    define USERMSGGUI_DEBUGM printf

@@ -10,7 +10,7 @@
 #ifndef GUARD_USERMSGLOGW_H_INCLUDE
 #define GUARD_USERMSGLOGW_H_INCLUDE
 
-#include <usermsggui/usermsggui-config.h>
+#include <usermsg-gui/usermsggui-config.h>
 #include <QtWidgets/QTextEdit>
 
 class UserMsg;

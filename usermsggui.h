@@ -10,7 +10,7 @@
 #ifndef GUARD_USERMSGGUI_H_INCLUDE
 #define GUARD_USERMSGGUI_H_INCLUDE
 
-#include <usermsggui/usermsggui-config.h>
+#include <usermsg-gui/usermsggui-config.h>
 
 //! brief description
 class USERMSGGUI_EXPORT UserMsgGui {
