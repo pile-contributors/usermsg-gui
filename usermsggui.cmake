@@ -9,11 +9,11 @@ include(pile_support)
 
 # initialize this module
 macro    (usermsgguiInit
-          ref_cnt_use_mode)
+          usermsggui_use_mode)
 
     # default name
-    if (NOT USER_MSG_GUI_INIT_NAME)
-        set(USER_MSG_GUI_INIT_NAME "UserMsgGui")
+    if (NOT USERMSGGUI_INIT_NAME)
+        set(USERMSGGUI_INIT_NAME "UserMsgGui")
     endif ()
 
     # compose the list of headers and sources
@@ -28,15 +28,15 @@ macro    (usermsgguiInit
         "Widgets")
 
     pileSetSources(
-        "${USER_MSG_GUI_INIT_NAME}"
+        "${USERMSGGUI_INIT_NAME}"
         "${USERMSGGUI_HEADERS}"
         "${USERMSGGUI_SOURCES}")
 
     pileSetCommon(
-        "${USER_MSG_GUI_INIT_NAME}"
+        "${USERMSGGUI_INIT_NAME}"
         "0;0;1;d"
         "ON"
-        "${ref_cnt_use_mode}"
+        "${usermsggui_use_mode}"
         "usermsg"
         "category1"
         "tag1;tag2")
